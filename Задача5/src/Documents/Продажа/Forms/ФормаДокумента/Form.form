@@ -219,6 +219,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товар.Количество</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТоварКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТоварКоличествоРасширеннаяПодсказка</name>
         <id>28</id>
